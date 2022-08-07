@@ -1,0 +1,51 @@
+@media only screen and (min-width:768px){
+    body {
+        background-color: greenyellow;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .postcard {
+        height:250px;
+    }
+
+    .postcard img {
+        height: 100%;
+        width: 50%;
+    }
+
+    .text {
+        width:50%;
+        float:right;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1248px){
+    body {
+        background-color: green;
+    }
+
+    main section {
+        width: 70%;
+        float: left;
+        height: 100%;
+    }
+
+    main aside {
+        width: 30%;
+        float: right;
+        height: 100%;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+}
